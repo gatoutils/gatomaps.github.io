@@ -2,16 +2,20 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Gatolandia Maps Editor</title>
+  <title>Editor Avanzado - Gatolandia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Editor de Gatolandia Maps</h1>
+  <h1>Editor Avanzado - Gatolandia</h1>
   <div id="map"></div>
-  <button onclick="exportData()">Exportar GeoJSON</button>
+  <div class="controls">
+    <button onclick="exportData()">Exportar GeoJSON</button>
+    <button onclick="importData()">Importar GeoJSON</button>
+    <textarea id="importBox" placeholder="Pega aquí tu JSON para importar..."></textarea>
+  </div>
   <pre id="output"></pre>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
