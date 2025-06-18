@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #20232a;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 0.5rem;
+}
+
+#map {
+  height: 80vh;
+  width: 100%;
+  border: 2px solid #4caf50;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+pre {
+  text-align: left;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #282c34;
+  color: #61dafb;
+  max-height: 200px;
+  overflow-y: auto;
+}
